@@ -29,7 +29,7 @@ function checkuser() {
     ) {
       var acc = accounts[i].userName;
       localStorage.setItem("userName", acc);
-      location.href = "../welcome/welcome.html";
+      location.href = "./welcome/welcome.html";
       var valideuser = true;
       break;
     }
